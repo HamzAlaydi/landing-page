@@ -1,17 +1,25 @@
+/* *{
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+} */
 body {
     background-color: rgb(16, 16, 16);
     color: #E2E2E2;
     margin: 0;
     padding: 0;
     font-family: Oswald;
-    /* height: 1000vh; */
 }
 
 .container {
     width: 48%;
     margin: 10px auto;
 }
+.container-2{
+    width: 70%;
+    margin: 10px auto;
 
+}
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -113,7 +121,7 @@ body {
     margin-bottom: 0px;
     padding: 0px;
     margin: 0;
-    width: 110%;
+    /* width: 110%; */
     font-weight: 500;
     font-family: Lato, Helvetica, sans-serif;
 
@@ -128,10 +136,12 @@ body {
     border-radius: 5px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 35rem;
 }
 
 .main-last-text {
-    width: 110%;
+    width: 100%;
     margin-top: 80px;
     display: flex;
     justify-content: space-between;
@@ -210,7 +220,7 @@ body {
 
 .second-section {
     margin-top: 80px;
-    width: 110%;
+    /* width: 110%; */
     padding-top: 40px;
 
 }
@@ -226,9 +236,9 @@ body {
 
 .second-section-hr {
     border-bottom: 1px solid #CAB330;
-    width: 950px;
+    width: 100%;
     left: 0;
-    margin-top: -23px;
+    margin-top: -14px;
 }
 
 .second-section h3 {
@@ -268,10 +278,11 @@ body {
 
 .paper {
     padding-top: 20px;
-    height: 1000px;
+    height: 1150px;
     background-color: white;
     z-index: 100;
-
+    display: flex;
+    justify-content: center
 }
 
 .paper .content {
@@ -281,6 +292,8 @@ body {
     box-shadow: 0 2px 5px 2px rgb(0 0 0 / 40%);
     background-color: white;
     z-index: 100;
+    width: 90%;
+
 
 }
 
@@ -360,17 +373,26 @@ body {
     font-style: italic;
     font-size: 20px;
 }
+.journey-container{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
 
+}
 .paper .content h4 {
     text-align: center;
     font-size: 32px;
     color: rgb(45, 45, 45);
     line-height: 1.3em;
     padding: 0px;
-    font-weight: 500;
-    max-width: 500px;
+    width: 70%;
+    /* font-weight: 500; */
+    /* max-width: 500px; */
     margin: 0;
-    margin-left: 25%;
+    /* margin-left: 25%; */
 }
 
 .paper .content button {
@@ -380,11 +402,11 @@ body {
     font-size: 42px;
     box-shadow: 0 0 25px rgb(0 0 0 / 40%), 0 0 15px rgb(255 255 255 / 20%), 0 0 3px rgb(255 255 255 / 40%);
     border-radius: 3px;
-    padding: 10px 25px;
+    padding: 10px 20px;
     text-align: center !important;
     text-decoration: none;
     border: 0;
-    margin-left: 33%;
+    /* margin-left: 33%; */
     font-family: Oswald, Helvetica, sans-serif !important;
     font-weight: bold;
 }
@@ -397,10 +419,11 @@ body {
 .start-journey {
     margin-top: 200px;
     z-index: -1;
-    padding-bottom: 40px;
 }
 
-
+.start-journey .ll {
+    width: 120%
+}
 
 .start-journey h3 {
     text-align: center;
@@ -427,23 +450,33 @@ body {
 
 .start-journey .content {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     width: 110%;
-    margin-top: 40px;
-    margin-left: -60px;
+    margin-bottom: 3rem;
+}
+.content .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding-left: 2rem;
 
 }
+.content .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding-right: 2rem;
 
+}
 .start-journey .content img {
-    width: 500px;
-    height: 222px;
+  
 }
 
 
 .start-journey .content h4 {
     text-align: center;
-    font-size: 30px;
+    font-size: 31px;
     color: rgb(255, 255, 255);
     line-height: 1.3em;
     font-weight: 500;
@@ -457,11 +490,11 @@ body {
     font-size: 42px;
     box-shadow: 0 0 25px rgb(0 0 0 / 40%), 0 0 15px rgb(255 255 255 / 20%), 0 0 3px rgb(255 255 255 / 40%);
     border-radius: 3px;
-    padding: 10px 25px;
+    padding: 10px 15px;
     text-align: center !important;
     text-decoration: none;
     border: 0;
-    margin-left: 22%;
+    /* margin-left: 22%; */
     font-family: Oswald, Helvetica, sans-serif !important;
     font-weight: bold;
 }
@@ -478,7 +511,7 @@ body {
     background-color: white;
     padding-top: 20px;
     padding-bottom: 20px;
-    width: 110%;
+    /* width: 110%; */
 
 }
 
@@ -486,7 +519,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    width: 110%;
+    /* width: 110%; */
     margin-left: -150px;
 }
 
@@ -519,7 +552,7 @@ body {
     background-color: #EDEDED;
     padding-top: 20px;
     padding-bottom: 20px;
-    width: 110%;
+    /* width: 110%; */
 
 
 }
@@ -550,12 +583,16 @@ body {
     padding: 0
 }
 
-.gray-feedback .content p {
-    font-style: italic;
-    text-align: right;
-    font-size: 23px;
-    color: rgb(16, 16, 16);
-    font-family: Lato;
-    line-height: 25px;
-    margin: 5px
-}
+/* end start-journey  section*/
+@media only screen and (max-width: 1440px) {
+    .container{
+        width: 80%;
+    }
+    .second-section p{
+        font-size: 16px;
+    }
+    .paper{
+        height: 1100px;
+    }
+  }
+  
