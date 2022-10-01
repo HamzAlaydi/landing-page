@@ -1,0 +1,254 @@
+body {
+    background-color: rgb(16, 16, 16);
+    color: #E2E2E2;
+    margin: 0;
+    padding: 0;
+    font-family: Oswald;
+    height: 1000vh;
+}
+
+.container {
+    width: 48%;
+    margin: 10px auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.navbar p {
+    font-size: 20px;
+    color: #E2E2E2;
+    font-family: Lato, Helvetica, sans-serif;
+}
+
+.navbar p::before {
+    content: "\f167";
+    top: -4px;
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 900;
+    font-size: 1.3rem;
+    color: var(--clr-primary);
+    position: relative;
+    vertical-align: middle;
+    margin-right: 1rem;
+    color: #CAB330;
+}
+
+
+.navbar button {
+    padding: 10px;
+    background-color: #CAB330;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Oswald';
+
+
+}
+
+.navbar button:hover {
+    box-shadow: inset 0 0px 0px 0 rgb(255 255 255 / 22%), 0 233px 233px 0 rgb(255 255 255 / 12%) inset;
+    cursor: pointer;
+    transition: 0.2 all ease-in-out;
+}
+
+
+/* main */
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#myVideo {
+    position: absolute;
+    top: 75px;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 125%;
+    z-index: -1;
+}
+
+.main img {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 450px;
+
+}
+
+.main p:nth-child(3) {
+    color: #CAB330;
+    font-family: Lato;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: normal;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main h1 {
+    font-size: 80px;
+    text-align: center;
+    line-height: 1.3em;
+    margin: 0px;
+    padding: 0px;
+    font-family: inherit;
+    font-weight: 600;
+    width: 115%;
+}
+
+.main h5 {
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin-bottom: 0px;
+    padding: 0px;
+    margin: 0;
+    width: 110%;
+    font-weight: 500;
+    font-family: Lato, Helvetica, sans-serif;
+
+}
+
+.main-video {
+    margin-top: 35px;
+    padding-top: 56.25%;
+    box-shadow: 0px 0px 20px #fff;
+    background-color: #FFF;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+}
+
+.main-last-text {
+    width: 110%;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-last-text p:nth-child(1) {
+    color: #CAB330;
+    font-family: Lato;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: normal;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-last-text p:nth-child(2) {
+    color: white;
+    font-family: Lato;
+    font-weight: 500;
+    font-size: 32px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-last-text button {
+    font-family: Oswald, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: #CAB330;
+    color: #FFF;
+    padding: 10px 20px;
+    border-radius: 3px;
+    line-height: 1.42857143;
+    cursor: pointer;
+}
+
+.main-last-text span {
+    font-size: 40px;
+}
+
+.main-last-text span:nth-child(2) {
+    font-size: 14px;
+    opacity: 0.7;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+/* hr */
+.hr {
+    width: 100%;
+    margin-top: 30px;
+    border-top: 4px solid #CAB330;
+    position: absolute;
+}
+
+.hr::before {
+    content: url('https://images.clickfunnels.com/cdn-cgi/image/fit=scale-down,width=50,quality=75/https://images.clickfunnels.com/27/7aff2e7469444c8f009d4ae9ec4118/yellow-arrow-2.png');
+    position: relative;
+    width: 20%;
+    height: 20%;
+    /*or absolute*/
+    z-index: 100000;
+    left: 50%;
+    top: 1%;
+}
+
+/* second-section */
+.back {
+    background-image: url('https://images.clickfunnels.com/da/7fce5fbb714c98af43aaa6dc3ba08f/bg-2.jpg');
+    margin-top: -37px;
+    z-index: -1;
+    background-size: cover;
+
+}
+
+.second-section {
+    margin-top: 80px;
+    width: 110%;
+    padding-top: 40px;
+
+}
+
+.second-section p {
+    text-align: center;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-family: Lato, Helvetica, sans-serif;
+}
+
+.second-section-hr {
+    border-bottom: 1px solid #CAB330;
+    width: 950px;
+    left: 0;
+    margin-top: -23px;
+}
+
+.second-section h3 {
+    text-align: center;
+    font-size: 52px;
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    line-height: 1.3em;
+}
+
+.second-section h3 span {
+    color: #CAB330;
+}
+
+.second-section h5 {
+    font-family: Lato, Helvetica, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 26px;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+}
